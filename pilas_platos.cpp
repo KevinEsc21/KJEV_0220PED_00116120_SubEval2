@@ -129,7 +129,7 @@ int main(){
                 clone.pop();
                 }
                 }else{
-                    cout << "Underflow! La pila de platos sucios esta vacia" << endl;
+                    cout << "Underflow! La pila de platos limpios esta vacia" << endl;
                 }
                 break;
             case 6:
