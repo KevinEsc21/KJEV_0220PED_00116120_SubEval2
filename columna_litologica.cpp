@@ -37,7 +37,7 @@ int main(){
     Capa capaAux;
 
     do{
-        cout << endl << "*****MENU OPCIONES PILA***" << endl;
+        cout << endl << "****MENU OPCIONES****" << endl;
         cout << "1: Agregar capas" << endl;
         cout << "2: Eliminar ultima capa" << endl;
         cout << "3: Eliminar todas las capas" << endl;
@@ -96,7 +96,7 @@ int main(){
             continuar=false;
             break;
         default:
-            cout << "Opcion no validad!" << endl;
+            cout << "Opcion no valida!" << endl;
             break;
         }
 
