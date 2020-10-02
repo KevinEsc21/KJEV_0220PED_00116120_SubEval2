@@ -141,12 +141,13 @@ int main(){
                 cout << platotemporal.color << ", Estado: ";
                 if(platotemporal.estado==false){
                     cout << "sucio";
+                clone.pop();
                 }else{
                     cout << "limpio";
                 }
                 cout << "]" << endl;
                 }
-                clone.pop();
+                
                 }else{
                     cout << "Underflow! La pila de platos sucios esta vacia" << endl;
                 }
